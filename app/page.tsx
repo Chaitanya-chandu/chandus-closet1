@@ -4,14 +4,14 @@ import { useState } from "react";
 
 export default function Home() {
   const photos = [
-    "/images/photo1.jpg",
-    "/images/photo2.jpg",
-    "/images/photo3.jpg",
-    "/images/photo4.jpg",
-    "/images/photo5.jpg",
-    "/images/photo6.jpg",
-    "/images/photo7.jpg",
-    "/images/photo8.jpg",
+    "/images/chandu/photo1.jpg",
+    "/images/chandu/photo2.jpg",
+    "/images/chandu/photo3.jpg",
+    "/images/chandu/photo4.jpg",
+    "/images/chandu/photo5.jpg",
+    "/images/chandu/photo6.jpg",
+    "/images/chandu/photo7.jpg",
+    "/images/chandu/photo8.jpg",
   ];
 
   const fitIdeas = [
@@ -194,7 +194,7 @@ export default function Home() {
             </div>
 
             <img
-              src="/images/photo1.jpg"
+              src="/images/chandu/photo1.jpg"
               alt="Chandu"
               className="rounded-[30px] shadow-xl"
             />
